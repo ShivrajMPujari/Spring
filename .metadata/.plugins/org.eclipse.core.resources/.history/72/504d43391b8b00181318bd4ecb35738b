@@ -1,0 +1,5 @@
+package com.bridgeIt.springPrax.lifeCycle;
+
+public class Bean {
+
+}

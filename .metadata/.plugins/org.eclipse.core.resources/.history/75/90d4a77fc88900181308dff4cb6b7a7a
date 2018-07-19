@@ -1,0 +1,12 @@
+package com.bridgeIt.springDemo;
+
+public class Car {
+
+	Engine engine;
+	private String name;
+	
+	public void start() {
+		engine.ready();
+		System.out.println("car is running");
+	}
+}

@@ -1,0 +1,13 @@
+package com.bridgeIt.springPrax.ioc.constructor;
+
+public class Car {
+
+	Engine engine ;
+	
+	public void work(Engine engine){
+		
+		engine.start();
+		System.out.println("CAR is working");
+	
+	}
+}
