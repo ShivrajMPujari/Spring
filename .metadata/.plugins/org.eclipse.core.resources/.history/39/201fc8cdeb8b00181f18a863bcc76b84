@@ -1,0 +1,12 @@
+package com.bridgeIt.springPrax.autowire;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.core.io.ClassPathResource;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+		
+	}
+}
