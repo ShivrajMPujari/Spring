@@ -12,4 +12,5 @@
 	</bean>
    
       <bean class="com.bridgeIt.springDemo.InitBeanDemo"/> 
+      
 </beans>
