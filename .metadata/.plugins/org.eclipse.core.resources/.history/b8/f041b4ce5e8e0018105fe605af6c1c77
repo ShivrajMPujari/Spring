@@ -1,0 +1,5 @@
+package com.bridgeIt.springPrax.circularDependency;
+
+public class B {
+
+}

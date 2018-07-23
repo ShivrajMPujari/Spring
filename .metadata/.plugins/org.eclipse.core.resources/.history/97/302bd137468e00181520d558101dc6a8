@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+	<bean name="employee" class="com.bridgeIt.springPrax.autowire.Employee" autowire="byName">
+	<property name="id" value="101"></property>
+	<property name="name" value="jay"></property>
+	<property name="role" value="developer"></property>
+	<property name="address1" ref="address"></property>
+	</bean>
+	
+	<bean id="address" class="com.bridgeIt.springPrax.autowire.Address">
+	<property name="location" value="JB Nagar" ></property>
+	<property name="city" value="mumbai"></property>
+	<property name="state" value="Maharashtra" ></property>
+	</bean>
+
+</beans>

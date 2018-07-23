@@ -26,7 +26,7 @@ public class MainScope {
 		
 		
 /*		try {
-			Class string=Class.forName("java.lang.String");
+			Class string=Class.forName("java");
 			Method []m=string.getDeclaredMethods();
 			System.out.println(string.getName());
 			System.out.println(Arrays.toString(m));
