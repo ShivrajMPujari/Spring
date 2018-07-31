@@ -13,8 +13,12 @@ public class Test {
 		Employee employee=context.getBean(Employee.class);
 		EmployeeDao dao=context.getBean(EmployeeDao.class);
 		context.close();
+		
+		
+		List list = (List) dao.fetchEmployeeById(3);
+		System.out.println(list.size());
 		int loop=1;
-		while(loop==1) {
+/*		while(loop==1) {
 		
 		System.out.println("Employee Info:-");
 		System.out.println("1.Add employee \n2.Update Employee\n3.View Employees \n4.Remove Employee \n5.exit");
@@ -99,6 +103,6 @@ public class Test {
 			
 		}
 
-	}
+	}*/
 	}
 }

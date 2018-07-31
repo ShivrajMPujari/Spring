@@ -21,4 +21,14 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.ResultSetExtractor"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="io.jsonwebtoken.SignatureAlgorithm"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.xml.bind.DatatypeConverter"/>
+<fullyQualifiedTypeName name="javax.crypto.SecretKey"/>
+<fullyQualifiedTypeName name="javax.crypto.SecretKeyFactory"/>
+<fullyQualifiedTypeName name="javax.crypto.SecretKeyFactorySpi"/>
+<fullyQualifiedTypeName name="io.jsonwebtoken.Jwts"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="io.jsonwebtoken.JwtBuilder"/>
+<fullyQualifiedTypeName name="io.jsonwebtoken.Claims"/>
 </qualifiedTypeNameHistroy>

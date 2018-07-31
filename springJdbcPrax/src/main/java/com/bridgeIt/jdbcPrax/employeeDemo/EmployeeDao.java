@@ -36,17 +36,22 @@ public class EmployeeDao {
 		return employees; 
 	}
 	
-	public Employee fetchEmployeeById(int id ) {
+	public List<Employee> fetchEmployeeById(int id ) {
 		
 		Object [] args = {id};
 		Employee employee = null;
-		try {
+		
+		List<Employee> employees=template.query("select * from Employee where id=?",args,new EmployeeMapper());
+		System.out.println(employees);
+		
+		
+	/*	try {
 			employee = template.queryForObject("select * from Employee where id=?", args, new EmployeeMapper());
 		} catch (Exception e) {
 			System.out.println("your Id doesn't exist");
 			employee=null;
-		}
-		return employee;
+		}*/
+		return employees;
 	}
 	
 	public void updateRecord(Employee emp) {
